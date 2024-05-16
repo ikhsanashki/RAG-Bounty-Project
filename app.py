@@ -1,7 +1,6 @@
 # Import libraries
 import streamlit as st
 import os, sys
-from dotenv import find_dotenv, dotenv_values
 from pymongo import MongoClient
 from urllib.request import urlopen
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
@@ -22,10 +21,8 @@ DB_NAME = 'steam_games2'
 COLLECTION_NAME = 'embedded_games2'
 INDEX_NAME  = 'games_index2'
 
-config = dotenv_values(find_dotenv())
-
-ATLAS_URI = config.get('ATLAS_URI')
-GROQ_API = config.get('GROQ_API')
+ATLAS_URI = st.secrets["ATLAS_URI"]
+GROQ_API = st.secrets["GROQ_API"]
 
 
 # Initialization function
