@@ -105,7 +105,7 @@ def run_vector_query (query):
                 st.markdown(f"<p><b>Publishers: {data['Publishers']}</b></p>", unsafe_allow_html=True)
 
         except Exception as e:
-            st.error(f"Somethings wrong with the Llama API. Please try again. {str(e)}")
+            st.error(f"Ups somethings wrong. Please try again. {str(e)}")
 
 # Configuring the display
 # Initiatize only once
