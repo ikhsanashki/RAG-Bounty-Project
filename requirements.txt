@@ -1,3 +1,4 @@
+streamlit
 pymongo==4.7.1
 huggingface-hub==0.20.3
 urllib3==2.2.1
