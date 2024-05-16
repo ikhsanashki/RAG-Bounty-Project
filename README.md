@@ -11,9 +11,9 @@ Once everything is set up and ready, the application is prepared to be launched 
 ![1](https://github.com/ikhsanashki/RAG-Bounty-Project/assets/169969056/1096c4e2-cca9-404a-acf9-bd10084c3a0d)
 
 
-
+##
 I will explain some details about this application as follows:
-
+##
 
 ![3](https://github.com/ikhsanashki/RAG-Bounty-Project/assets/169969056/499dee9d-49dc-491b-ba81-78a5a35a892a)
 
