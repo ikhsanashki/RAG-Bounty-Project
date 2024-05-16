@@ -41,7 +41,7 @@ def initialize():
     print ('Atlas client succesfully initialized!')
 
     # Generate embeddings for the given query
-    embed_model = HuggingFaceEmbedding(model_name='Alibaba-NLP/gte-base-en-v1.5', device='cuda', trust_remote_code=True)
+    embed_model = HuggingFaceEmbedding(model_name='Alibaba-NLP/gte-base-en-v1.5', trust_remote_code=True)
     llm = Groq(model="mixtral-8x7b-32768", api_key=GROQ_API)
 
     # Set the LLM and embed_model in the Settings for further usage
